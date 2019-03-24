@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Apoyo a la Termodinámica - Comentarios Bibliográficos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" href="images/cdd64.png"/>
+    <!--Materializazo-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async>
+</script>
+  </head>
+
+  <body class="grey lighten-5">
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <div class="nav-wrapper grey">
+          <img src="images/cdd64.png" alt="CdD"/>
+          <a href="" class="brand-logo">Termodinámica</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons left">apps</i>Inicio</a></li>
+            <li><a href="definiciones.html"><i class="material-icons left">menu</i>Definiciones</a></li>
+            <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
+            <li class="active"><a href="#"><i class="material-icons left">book</i>Com. Bib.</a></li>
+            <li><a href="#"><i class="material-icons left">help_outline</i>About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--Navbar colapsado (móviles) -->
+      <ul class="sidenav" id="mobile-demo">
+        <h4 class="center">Menú</h4>
+        <li><a href="index.html"><i class="material-icons left">apps</i>Inicio</a></li>
+        <li><a href="definiciones.html"><i class="material-icons left">menu</i>Definiciones</a></li>
+        <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
+        <li class="active"><a href="#"><i class="material-icons left">book</i>Com. Bib.</a></li>
+        <li><a href="#"><i class="material-icons left">help_outline</i>About</a></li>
+      </ul>
+      
+      <!-- Header -->
+      <div class="row">
+        <div class="col l3 offset-l1 m5 s12 center">
+          <img src="images/open-book.png" alt="Videos" height="256" width="256">
+          <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </div>
+        <div class="col l7 m7 s12">
+          <h2>Comentarios bibliográficos</h2>      
+          <p>En esta sección podrás encontrar algunos comentarios hechos por profesores de la materia de termodinámica en la UNAM sobre bibliografía común para el estudio de la termodinámica.<p>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <!--Comentarios bibliográficos colapsables -->
+      <div class="row">
+        <ul class="collapsible popout col l10 offset-l1">
+          <!--Comentario de Félix sobre el Huang-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">book</i><b>Sobre el "Ingeniería Termodinámica. Fundamento y aplicación." de Francis F. Huang.</b></h5></div>
+            <div class="collapsible-body">
+              <span align="justify">
+                <p>En un texto de Termodinámica<sup>1</sup> puede leerse:</p> 
+                <blockquote>
+                  <p><i>Aunque a través de la termodinámica clásica pueden predecirse muchas relaciones entre las propiedades de la materia, ella no puede explicar por qué tales relaciones tienen su forma particular.</p>
+                  <p>Por ejemplo, puede observarse que, con argumentos termodinámicos, la capacidad térmica específica a presión constante de una sustancia pura (como el nitrógeno, el agua, el amoniaco o el dióxido de carbono) es siempre mayor que la capacidad térmica específica a volumen constante de la misma sustancia pura en el mismo estado.</p>
+                  <p>Pero la explicación de tal comportamiento no puede darla la termodinámica clásica.</i></p>
+                </blockquote>
+                <p>Sin embargo, quien tenga un conocimiento mínimo de la termodinámica clásica podría preguntarse si la aseveración del texto es correcta.</p>
+                <p>¿Qué conexión existe entre las capacidades térmicas específicas a presión y a volumen constante?</p>
+                <p>Sean las definiciones:</p>
+                <p>la de la capacidad térmica específica a presión constante: $$c_P=\ \left(\frac{\partial h}{\partial T}\right)_P$$</p>
+                <p>en donde $h$ representa a la entalpia específica: $h = u + Pv$,</p>
+                <p>$T$ representa a la temperatura, </p>
+                <p>$P$ representa a la presión absoluta.</p>
+                <p>La de la capacidad térmica específica a volumen constante: $$c_v=\ \left(\frac{\partial u}{\partial T}\right)_v$$</p>
+                <p>en donde $u$ representa a la energía interna específica,</p>
+                <p>$T$ representa a la temperatura.</p>
+                <p>$v$ representa al volumen específico.</p>
+                <p>Para el caso de los gases ideales se conoce la “Ley de Joule” (de los gases ideales) que puede expresarse según: $$du = c_vdT$$</p>
+                <p>y que en español se lee como “la energía interna específica de un gas ideal es función exclusivamente de la temperatura”.</p>
+                <p>Al seguir con la idea del gas ideal, la entalpia específica: $$h = u + Pv$$</p>
+                <p>puede escribirse como: $$h = u + RT$$</p>
+                <p>en donde $R$ es la constante del gas ideal.</p>
+                <p>De la expresión última puede concluirse que la entalpia específica de un gas ideal es función exclusivamente de la temperatura.</p>
+                <p>Por ello, las definiciones de las capacidades térmicas específicas para el gas ideal se simplifican:
+                $$c_v=\frac{du}{dT}, c_P=\frac{dh}{dT}$$ </p>
+                <p>de donde, con argumentos puramente de la termodinámica clásica se llega a:
+                $$c_P=\frac{dh}{dT}=\frac{d\left(u+RT\right)}{dT}=\frac{du}{dT}+R=c_v+R$$</p>
+                <p>que significa que la capacidad térmica específica a presión constante es mayor que la capacidad térmica específica a volumen constante.</p>
+                <p>¿Le quedan dudas que para las sustancias incompresibles se cumpla esta observación?</p>
+                <p class="grey-text"><sup>1</sup> Ingeniería Termodinámica. Fundamento y aplicación, 2a edición. Francis F. Huang. CECSA 1994.</p>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer grey">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Desarrollado por el PROTECO    <img src="images/proteco64.png" alt="PROTECOLogo" height="32" width="32"></h5>
+
+            <p class="grey-text text-lighten-4">Este sitio fue creado como apoyo para el estudio de la termodinámica por el Centro de Docencia de la Facultad de Ingeniería de la Universidad Nacional Autónoma de México.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contacto</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="http://proteco.mx/cursos">Visita la página del PROTECO</a></li>
+              <li><a class="grey-text text-lighten-3" href="http://www.centrodedocencia.unam.mx/index.php">Visita la página del CDD</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/proteco/">Sigue al PROTECO en Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Centro de Docencia © Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!--Inicialización de componentes de Materialize-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.collapsible').collapsible();
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+  </body>
+</html>
