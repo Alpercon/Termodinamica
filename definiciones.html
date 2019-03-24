@@ -1,84 +1,386 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Definiciones de Diccionario</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--Materializazo-->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-	</head>
-	<body>
+  <head>
+    <title>Apoyo a la Termodinámica - Definiciones</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" href="images/cdd64.png"/>
+    <!--Materializazo-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+  </head>
 
-		<!-- Navbar -->
-		<nav>
-		  <div class="nav-wrapper grey">
-		    <a href="" class="brand-logo">Termodinámica</a>
-		    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-		    <ul class="right hide-on-med-and-down">
-		      <li><a href="index.html">Inicio</a></li>
-		      <li class="active"><a href=#>Definiciones</a></li>
-		      <li><a href="collapsible.html">Javascript</a></li>
-		      <li><a href="mobile.html">Mobile</a></li>
-		    </ul>
-		  </div>
-		</nav>
-		<!--Navbar colapsado (móviles) -->
-		<ul class="sidenav" id="mobile-demo">
-		  <li><a href="index.html">Inicio</a></li>
-		  <li class="active"><a href=#>Definiciones</a></li>
-		  <li><a href="collapsible.html">Javascript</a></li>
-		  <li><a href="mobile.html">Mobile</a></li>
-		</ul>
-		
-		<!-- Header -->
-		<div class="row">
-			<div class="col l10 offset-l1">
-				<h2>Definiciones de Diccionario</h2>			
-				<p>En esta sección podrás encontrar las definiciones de la RAE sobre conceptos básicos para cualquier interesado en empezar a estudiar termodinámica. Haz clic en alguna palabra para desplegar su definición.</p>
-			</div>
-		</div>
-		
-		<!-- Definiciones (colapsables) -->		
-		<div>
-			<ul class="collapsible popout">
-		    <li>
-		      <div class="collapsible-header"><i class="material-icons">whatshot</i> <b>Calor</b></div>
-		      <div class="collapsible-body">
-		      	<span>
-		      		<b>1. m.</b> Sensación que se experimenta ante una elevada temperatura. En And. y algunos lugares de Am., u. t. c. f.<br>
-							<b>2. m.</b> Temperatura alta. <i>Una ola de calor sahariano.</i><br>
-							<b>3. m.</b> Ardimiento, actividad, ligereza.<br>
-							<b>4. m.</b> Favor, buena acogida.<br>
-							<b>5. m.</b> Entusiasmo, vehemencia, cariño. <i>Se crio falto de calor.</i><br>
-							<b>6. m.</b> Lo más fuerte y vivo de una acción.<br>
-							<b>7. m.</b> <i>Fís.</i> Energía que pasa de un cuerpo a otro y que causa la dilatación y los cambios de estado de estos.<br>
-		      	</span>
-		      </div>
-		    </li>
-		    <li>
-		      <div class="collapsible-header"><i class="material-icons">whatshot</i> <b>Calor atómico</b></div>
-		      <div class="collapsible-body">
-		      	<span>
-							<b>1. m.</b> <i>Fís.</i>  Cantidad de calor que por átomo gramo necesita un elemento químico para que su temperatura se eleve un grado Celsius.<br>
-		      	</span>
-		      </div>
-		    </li>
-		  </ul>
-		</div>
+  <body class="grey lighten-5">
+    <header>
+      <!-- Navbar -->
+      <nav>
+        <div class="nav-wrapper grey">
+          <a href="" class="brand-logo">Termodinámica</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html"><i class="material-icons left">apps</i>Inicio</a></li>
+            <li class="active"><a href=#><i class="material-icons left">menu</i>Definiciones</a></li>
+            <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
+            <li><a href="#"><i class="material-icons left">help_outline</i>About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--Navbar colapsado (móviles) -->
+      <ul class="sidenav" id="mobile-demo">
+        <h4 class="center">Menú</h4>
+        <li><a href="index.html"><i class="material-icons left">apps</i>Inicio</a></li>
+        <li class="active"><a href=#><i class="material-icons left">menu</i>Definiciones</a></li>
+        <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
+        <li><a href="#"><i class="material-icons left">help_outline</i>About</a></li>
+      </ul>
+      
+      <!-- Header -->
+      <div class="row">
+        <div class="col l3 offset-l1 m3 s12 center">
+          <img src="images/dictionary.png" alt="Diccionario" height="256" width="256">
+          <div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </div>
+        <div class="col l7 m9 s12">
+          <h2>Definiciones de Diccionario</h2>      
+          <p>En esta sección podrás encontrar las definiciones de la RAE sobre conceptos básicos para cualquier interesado en empezar a estudiar termodinámica. Haz clic en alguna palabra para desplegar su definición.</p>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <!-- Definiciones (colapsables) -->   
+      <div>
+        <ul class="collapsible popout">
+          <!--Definición Calor-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">whatshot</i><b>Calor</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. <i>calor, -ōris</i>.<br>
+                <b>1. m.</b> Sensación que se experimenta ante una elevada temperatura. En And. y algunos lugares de Am., u. t. c. f.<br>
+                <b>2. m.</b> Temperatura alta. <i>Una ola de calor sahariano.</i><br>
+                <b>3. m.</b> Ardimiento, actividad, ligereza.<br>
+                <b>4. m.</b> Favor, buena acogida.<br>
+                <b>5. m.</b> Entusiasmo, vehemencia, cariño. <i>Se crio falto de calor.</i><br>
+                <b>6. m.</b> Lo más fuerte y vivo de una acción.<br>
+                <b>7. m.</b> <i>Fís.</i> Energía que pasa de un cuerpo a otro y que causa la dilatación y los cambios de estado de estos.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=6qw2prQ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Calor Atómico-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">whatshot</i><b>Calor atómico</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. m.</b> <i>Fís.</i> Cantidad de calor que por átomo gramo necesita un elemento químico para que su temperatura se eleve un grado Celsius.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=6qw2prQ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Calor Específico-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">whatshot</i><b>Calor específico</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. m.</b> <i>Fís.</i> Cantidad de calor que por unidad de masa necesita una sustancia para que su temperatura se eleve un grado Celsius.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=6qw2prQ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Calor Latente-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">whatshot</i><b>Calor latente</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. m.</b> <i>Fís.</i> Calor que, sin aumentar la temperatura del cuerpo que lo recibe, se invierte en cambios de estado, como el de los sólidos que pasan al estado líquido y el de los líquidos al convertirse en gases o vapores.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=6qw2prQ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Densidad-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">blur_on</i><b>Densidad</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. <i>densĭtas, -ātis.</i><br>
+                <b>1. f.</b> Cualidad de denso.<br>
+                <b>2. f.</b> <i>Fís.</i> Magnitud que expresa la relación entre la masa y el volumen de un cuerpo, y cuya unidad en el sistema internacional es el kilogramo por metro cúbico (kg/m<sup>3</sup>).<br>
+                <b>3. f.</b> <i>Fotogr.</i> En una emulsión fotográfica, ennegrecimiento de la imagen, proporcional a la cantidad de luz a la que esta ha sido expuesta.<br>
+                <b>4. f.</b> <i>Inform.</i> Número de bits que puede registrarse por unidad de referencia en un sistema de almacenamiento de memoria.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=CCJi3Ov"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Dimensión-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">open_with</i><b>Dimensión</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. <i>dimensio, -ōnis.</i><br>
+                <b>1. f.</b> Aspecto o faceta de algo.<br>
+                <b>2. f.</b> Medida de una magnitud en una determinada dirección. <i>Las dimensiones del salón.</i> U. t. en sent. fig. <i>Un escándalo de grandes dimensiones.</i><br>
+                <b>3. f.</b> <i>Fís.</i> Cada una de las magnitudes que fijan la posición de un punto en un espacio. <i>Una superficie tiene dos dimensiones: el largo y el ancho.</i><br>
+                <b>4. f.</b> <i>Fís.</i> Cada una de las magnitudes fundamentales, tiempo, longitud, masa y carga eléctrica, con que se expresa una variable física.<br>
+                <b>5. f.</b> <i>Mús.</i> Medida de los compases.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=Dn3VM1z"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Energía-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">flare</i><b>Energía</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. tardío <i>energīa</i>, y este del gr. ἐνέργεια <i>enérgeia</i>.<br>
+                <b>1. f.</b> Eficacia, poder, virtud para obrar.<br>
+                <b>2. f.</b> <i>Fís.</i> Capacidad para realizar un trabajo. Se mide en julios. (Símb. E).<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=FGD8otZ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Energía Cinética-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">flare</i><b>Energía cinética</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Fís.</i> Energía que posee un cuerpo por razón de su movimiento.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=FGD8otZ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Energía Potencial-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">flare</i><b>Energía potencial</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Fís.</i> Capacidad de un cuerpo para realizar trabajo en razón de su posición en un campo de fuerzas.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=FGD8otZ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Energía Radiante-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">flare</i><b>Energía radiante</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Fís.</i> Energía existente en un medio físico, causada por ondas electromagnéticas, mediante las cuales se propaga directamente sin desplazamiento de la materia.<br>
+                <b>2. f.</b> <i>Fís.</i> Energía causada por una corriente de partículas, como electrones, protones, etc.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=FGD8otZ"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Entalpía-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">all_out</i><b>Entalpía</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Fís.</i> Magnitud termodinámica de un cuerpo, igual a la suma de su energía interna más el producto de su volumen por la presión exterior.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=Fg4GrD2"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Entropía-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">bubble_chart</i><b>Entropía</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del al. <i>Entropie</i>, y este del gr. ἐντροπή <i>entropḗ</i> 'cambio', 'giro' y el al. <i>-ie</i> '-ía'.<br>
+                <b>1. f.</b> <i>Fís.</i> Magnitud termodinámica que mide la parte de la energía no utilizable para realizar trabajo y que se expresa como el cociente entre el calor cedido por un cuerpo y su temperatura absoluta.<br>
+                <b>2. f.</b> <i>Fís.</i> Medida del desorden de un sistema. Una masa de una sustancia con sus moléculas regularmente ordenadas, formando un cristal, tiene entropía mucho menor que la misma sustancia en forma de gas con sus moléculas libres y en pleno desorden.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=FpmDaOB"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Frontera-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">crop_free</i><b>Frontera</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                De <i>fronte</i> y -ero. <br>
+                <b>1. adj.</b> Puesto y colocado enfrente.<br>
+                <b>2. m.</b> frentero.<br>
+                <b>3. m.</b> Caudillo o jefe militar que mandaba la frontera.<br>
+                <b>4. f.</b> Confín de un Estado.<br>
+                <b>5. f.</b> límite. U. m. en pl. <i>Su codicia no tiene fronteras.</i><br>
+                <b>6. f.</b> frontis (‖ fachada).<br>
+                <b>7. f.</b> Cada una de las fajas o fuerzas que se ponen en el serón por la parte de abajo para su mayor firmeza.<br>
+                <b>8. f.</b> <i>Arq.</i> Tablero fortificado con barrotes que sirve para sostener los tapiales que forman el molde de la tapia cuando se llega con ella a las esquinas o vanos.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=IWF4mid"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Masa-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">lens</i><b>Masa</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. <i>massa</i>, y este del gr. μᾶζα <i>mâza</i> 'masa de harina', 'pastel', 'mezcla amasada'.<br>
+                <b>1. adj.</b> <i>Fís.</i> Magnitud física que expresa la cantidad de materia de un cuerpo, medida por la inercia de este, que determina la aceleración producida por una fuerza que actúa sobre él, y cuya unidad en el sistema internacional es el kilogramo (kg).<br>
+                <b>2. f.</b> Mezcla que proviene de la incorporación de un líquido a una materia pulverizada, de la cual resulta un todo espeso, blando y consistente.<br>
+                <b>3. f.</b> Mezcla de harina con agua y levadura, para hacer el pan.<br>
+                <b>4. f.</b> pastel (‖ mezcla de harina y manteca cocida al horno).<br>
+                <b>5. f.</b> Volumen, conjunto, reunión.<br>
+                <b>6. f.</b> Cuerpo o todo de una hacienda u otra cosa tomada en grueso. <i>Masa de bienes, de la herencia, de la quiebra.</i><br>
+                <b>7. f.</b> Conjunto o concurrencia de algunas cosas.<br>
+                <b>8. f.</b> Gran conjunto de gente que por su número puede influir en la marcha de los acontecimientos. LA masa.<br>
+                <b>9. f.</b> Muchedumbre o conjunto numeroso de personas. U. m. en pl. <i>Las masas populares.</i><br>
+                <b>10. f.</b> <i>Electr.</i> Armazón o soporte metálico de una máquina o aparato en el que están montados <br>componentes eléctricos o electrónicos, generalmente unido a tierra.<br>
+                <b>11. f.</b> <i>Mil.</i> masita.<br>
+                <b>12. f.</b> <i>Arg.</i> y <i>Ur.</i> masita (‖ galleta o pasta).<br>
+                <b>13. f.</b> desus. pasta (‖ carácter de una persona).<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=OWEvPFc"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Masa Atómica-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">lens</i><b>Masa atómica</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> Peso atómico.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=OWEvPFc"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Masa Molecular-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">lens</i><b>Masa molecular</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Quím.</i> Peso molecular.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=OWEvPFc"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Presión-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">vertical_align_bottom</i><b>Presión</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. <i>pressio, -ōnis.</i><br>
+                <b>1. f.</b> Acción de apretar o comprimir. <i>Haz presión para cerrar la maleta.</i><br>
+                <b>2. f.</b> Fuerza moral o influencia ejercida sobre una persona para condicionar su comportamiento. <i>Resistir a las presiones sociales.</i><br>
+                <b>3. f.</b> Acoso continuado que se ejerce sobre el adversario para impedir su reacción y lograr su derrota. <i>Las tropas sometieron al enemigo a una gran presión.</i><br>
+                <b>4. f.</b> Magnitud física que expresa la fuerza ejercida por un cuerpo sobre la unidad de superficie y cuya unidad en el sistema internacional es el pascal.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=U6hxHwV"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Presión Crítica-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">vertical_align_bottom</i><b>Presión crítica</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Fís.</i> Presión característica de cada líquido, tal que a su temperatura crítica coexisten los estados líquido y gaseoso.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=U6hxHwV"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Presión Osmótica-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">vertical_align_bottom</i><b>Presión osmótica</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. f.</b> <i>Fís.</i> Presión que ejercen las partículas del disolvente en una disolución sobre la membrana semipermeable que la separa de otra de mayor concentración.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=U6hxHwV"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Propiedad-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">blur_circular</i><b>Propiedad</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                De <i>propriedad</i>.<br>
+                <b>1. f.</b> Derecho o facultad de poseer alguien algo y poder disponer de ello dentro de los límites legales.<br>
+                <b>2. f.</b> Cosa que es objeto del dominio, sobre todo si es inmueble o raíz.<br>
+                <b>3. f.</b> Atributo o cualidad esencial de alguien o algo.<br>
+                <b>4. f.</b> Semejanza o imitación perfecta.<br>
+                <b>5. f.</b> Defecto contrario a la pobreza religiosa, en que incurre el profeso que usa una cosa como propia.<br>
+                <b>6. f.</b> <i>Fil.</i> Accidente necesario e inseparable.<br>
+                <b>7. f.</b> <i>Gram.</i> Significado o sentido peculiar y exacto de las voces o frases.<br>
+                <b>8. f.</b> <i>Mús.</i> Cada una de las tres especies de hexacordos que se usaron en el solfeo del canto llano.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=U6hxHwV"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Sistema-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">dehaze</i><b>Sistema</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                Del lat. tardío <i>systēma</i>, y este del gr. σύστημα <i>sýstēma</i>.<br>
+                <b>1. m.</b> Conjunto de reglas o principios sobre una materia racionalmente enlazados entre sí.<br>
+                <b>2. m.</b> Conjunto de cosas que relacionadas entre sí ordenadamente contribuyen a determinado objeto.<br>
+                <b>3. m.</b> <i>Biol.</i> Conjunto de órganos que intervienen en alguna de las principales funciones vegetativas. Sistema nervioso.<br>
+                <b>4. m.</b> <i>Ling.</i> Conjunto estructurado de unidades relacionadas entre sí que se definen por oposición; p. ej., la lengua o los distintos componentes de la descripción lingüística.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=Y2AFX5s"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Sistema Ecuaciones-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">dehaze</i><b>Sistema de ecuaciones</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. m.</b> <i>Mat.</i> Conjunto de dos o más ecuaciones cuya solución es común a todas ellas.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=Y2AFX5s"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+          <!--Definición Sistema Unidades-->
+          <li>
+           <div class="collapsible-header"><h5><i class="material-icons">dehaze</i><b>Sistema de unidades</b></h5></div>
+            <div class="collapsible-body">
+              <span>
+                <b>1. m.</b> <i>Fís.</i> Conjunto de unidades coordinadas, determinadas por convenios científicos internacionales, que permiten expresar la medida de cualquier magnitud física.<br>
+                <a class="grey-text" href="https://dle.rae.es/?id=Y2AFX5s"><i class="tiny material-icons">open_in_new</i> Fuente: Diccionario de la Lengua Española</a>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
 
-		<!--Inicialización de componentes de Materialize-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
-		<script type="text/javascript">
-		  $(document).ready(function(){
-		    $('.collapsible').collapsible();
-		  });
-		</script>
-		<script type="text/javascript">
-		  $(document).ready(function(){
-		    $('.sidenav').sidenav();
-		  });
-		</script>
-	</body>
+    <!-- Footer -->
+    <footer class="page-footer grey">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Desarrollado por el PROTECO    <img src="images/proteco64.png" alt="PROTECOLogo" height="32" width="32"></h5>
+
+            <p class="grey-text text-lighten-4">Este sitio fue creado como apoyo para el estudio de la termodinámica por el Centro de Docencia de la Facultad de Ingeniería de la Universidad Nacional Autónoma de México.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contacto</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="http://proteco.mx/cursos">Visita la página del PROTECO</a></li>
+              <li><a class="grey-text text-lighten-3" href="http://www.centrodedocencia.unam.mx/index.php">Visita la página del CDD</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/proteco/">Sigue al PROTECO en Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Centro de Docencia © Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <!--Inicialización de componentes de Materialize-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.collapsible').collapsible();
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+    </script>
+  </body>
 </html>
