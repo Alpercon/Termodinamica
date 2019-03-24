@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Definiciones de Diccionario</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--Materializazo-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+	</head>
+	<body>
+
+		<!-- Navbar -->
+		<nav>
+		  <div class="nav-wrapper grey">
+		    <a href="" class="brand-logo">Termodinámica</a>
+		    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		    <ul class="right hide-on-med-and-down">
+		      <li><a href="index.html">Inicio</a></li>
+		      <li class="active"><a href=#>Definiciones</a></li>
+		      <li><a href="collapsible.html">Javascript</a></li>
+		      <li><a href="mobile.html">Mobile</a></li>
+		    </ul>
+		  </div>
+		</nav>
+		<!--Navbar colapsado (móviles) -->
+		<ul class="sidenav" id="mobile-demo">
+		  <li><a href="index.html">Inicio</a></li>
+		  <li class="active"><a href=#>Definiciones</a></li>
+		  <li><a href="collapsible.html">Javascript</a></li>
+		  <li><a href="mobile.html">Mobile</a></li>
+		</ul>
+		
+		<!-- Header -->
+		<div class="row">
+			<div class="col l10 offset-l1">
+				<h2>Definiciones de Diccionario</h2>			
+				<p>En esta sección podrás encontrar las definiciones de la RAE sobre conceptos básicos para cualquier interesado en empezar a estudiar termodinámica. Haz clic en alguna palabra para desplegar su definición.</p>
+			</div>
+		</div>
+		
+		<!-- Definiciones (colapsables) -->		
+		<div>
+			<ul class="collapsible popout">
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">whatshot</i> <b>Calor</b></div>
+		      <div class="collapsible-body">
+		      	<span>
+		      		<b>1. m.</b> Sensación que se experimenta ante una elevada temperatura. En And. y algunos lugares de Am., u. t. c. f.<br>
+							<b>2. m.</b> Temperatura alta. <i>Una ola de calor sahariano.</i><br>
+							<b>3. m.</b> Ardimiento, actividad, ligereza.<br>
+							<b>4. m.</b> Favor, buena acogida.<br>
+							<b>5. m.</b> Entusiasmo, vehemencia, cariño. <i>Se crio falto de calor.</i><br>
+							<b>6. m.</b> Lo más fuerte y vivo de una acción.<br>
+							<b>7. m.</b> <i>Fís.</i> Energía que pasa de un cuerpo a otro y que causa la dilatación y los cambios de estado de estos.<br>
+		      	</span>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">whatshot</i> <b>Calor atómico</b></div>
+		      <div class="collapsible-body">
+		      	<span>
+							<b>1. m.</b> <i>Fís.</i>  Cantidad de calor que por átomo gramo necesita un elemento químico para que su temperatura se eleve un grado Celsius.<br>
+		      	</span>
+		      </div>
+		    </li>
+		  </ul>
+		</div>
+
+		<!--Inicialización de componentes de Materialize-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+		<script type="text/javascript">
+		  $(document).ready(function(){
+		    $('.collapsible').collapsible();
+		  });
+		</script>
+		<script type="text/javascript">
+		  $(document).ready(function(){
+		    $('.sidenav').sidenav();
+		  });
+		</script>
+	</body>
+</html>
