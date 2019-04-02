@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Apoyo a la Termodinámica - Videos</title>
+    <title>Apoyo a la Termodinámica - Lecturas recomendadas</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="icon" type="image/png" href="images/cdd64.png"/>
@@ -21,9 +21,9 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html"><i class="material-icons left">apps</i>Inicio</a></li>
             <li><a href="definiciones.html"><i class="material-icons left">menu</i>Definiciones</a></li>
-            <li class="active"><a href="#"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
+            <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
             <li><a href="com_bib.html"><i class="material-icons left">book</i>Com. Bib.</a></li>
-            <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas</a></li>
+            <li class="active"><a href="#"><i class="material-icons left">description</i>Lecturas</a></li>
             <li><a href="about.html"><i class="material-icons left">help_outline</i>About</a></li>
           </ul>
         </div>
@@ -33,39 +33,44 @@
         <h4 class="center">Menú</h4>
         <li><a href="index.html"><i class="material-icons left">apps</i>Inicio</a></li>
         <li><a href="definiciones.html"><i class="material-icons left">menu</i>Definiciones</a></li>
-        <li class="active"><a href="#"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
+        <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
         <li><a href="com_bib.html"><i class="material-icons left">book</i>Com. Bib.</a></li>
-        <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas</a></li>
+        <li class="active"><a href="#"><i class="material-icons left">description</i>Lecturas</a></li>
         <li><a href="about.html"><i class="material-icons left">help_outline</i>About</a></li>
       </ul>
       
       <!-- Header -->
       <div class="row">
         <div class="col l3 offset-l1 m5 s12 center">
-          <img src="images/video.png" alt="Videos" height="256" width="256">
+          <img src="images/pdf.png" alt="Videos" height="256" width="256">
           <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
         </div>
         <div class="col l7 m7 s12">
-          <h2>Videos</h2>      
-          <p>En esta sección podrás encontrar videos explicando conceptos de termodinámica.<p> 
-          <p>Todos los videos mostrados a continuación fueron parte del concurso "¿Y la termodinámica para qué?" organizado por el Centro de Docencia de la Facultad de Ingeniería de la Universidad Nacional Autónoma de México.</p>
+          <h2>Lecturas recomendadas</h2>      
+          <p>En esta sección podrás encontrar algunas lecturas recomendadas sobre el aprendizaje de la termodinámica.<p>
         </div>
       </div>
     </header>
     
     <main>
       <div class="row">
-        <div class="col l5 offset-l1 m10 offset-m1 s12 center">
-          <h4><b>El postulado de Clausius y de Kelvin</b></h4>
-          <iframe src="https://drive.google.com/file/d/121TJ-z5q_NGwG4CxTPz8SXW-Qx01sWCx/preview" width="100%" height="360"></iframe>
-          <p><b>Creado por:</b> García Martínez Ariana Citlalli y Diego Navarrete García</p>
-        </div>
-        <div class="col l5 offset-l1 m10 offset-m1 s12 center">
-          <h4><b>Título 2</b></h4>
-          <iframe src="https://drive.google.com/file/d/1VFxzEE7l3T_oQ0W-jt48AhMd0E-b190P/preview" width="100%" height="360"></iframe>
-          <p>Creado por: Juan Pérez.</p>
-        </div>
-      </div>
+        <ul class="collapsible popout col l10 offset-l1">
+          <!--¿Por qué persisten las dificultades en el aprendizaje del concepto de energía?-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">book</i><b>Núñez, G., Maturano, C. I., Pereira, R., & Mazzitelli, C. (2004). "¿Por qué persisten las dificultades en el aprendizaje del concepto de energía?."</b></h5></div>
+            <div class="collapsible-body">
+              <iframe src="https://drive.google.com/file/d/1VT0cMDqS3lXrPORy9envstWUNr_ufYlx/preview" width="100%" height="480"></iframe>
+            </div>
+          </li>
+          <!--Resolver problemas: una estrategia para el aprendizaje de la termodinámica-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">book</i><b>García G., J. J. y Rentería Rodríguez, E. (2013). “Resolver problemas: una estrategia para el aprendizaje de la termodinámica”. En: Revista Guillermo de Ockham 11(2). pp. 117-134.</b></h5></div>
+            <div class="collapsible-body">
+              <iframe src="https://drive.google.com/file/d/118H7sBHDXfmdnhUOrIbE1Z9E11AYiIaa/preview" width="100%" height="480"></iframe>
+            </div>
+          </li>
+        </ul>
+      </div>         
     </main>
 
     <!-- Footer -->
@@ -100,6 +105,11 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $('.sidenav').sidenav();
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.collapsible').collapsible();
       });
     </script>
   </body>
