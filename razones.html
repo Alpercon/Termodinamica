@@ -8,6 +8,8 @@
     <!--Materializazo-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async>
+    </script>
   </head>
 
   <body class="grey lighten-5">
@@ -25,6 +27,7 @@
             <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas</a></li>
             <li><a href="fotocopias.html"><i class="material-icons left">import_contacts</i>Fotocopias</a></li>
             <li class="active"><a href="#"><i class="material-icons left">question_answer</i>Razones</a></li>
+            <li><a href="examen.html"><i class="material-icons left">assignment_turned_in</i>Autoevaluaciones</a></li>
             <li><a href="about.html"><i class="material-icons left">help_outline</i>Acerca de</a></li>
           </ul>
         </div>
@@ -38,6 +41,7 @@
           <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas</a></li>
           <li><a href="fotocopias.html"><i class="material-icons left">import_contacts</i>Fotocopias</a></li>
           <li class="active"><a href="#"><i class="material-icons left">question_answer</i>Razones</a></li>
+          <li><a href="examen.html"><i class="material-icons left">assignment_turned_in</i>Autoevaluaciones</a></li>
           <li><a href="about.html"><i class="material-icons left">help_outline</i>Acerca de</a></li>
       </ul>
       
@@ -49,7 +53,7 @@
         </div>
         <div class="col l7 m7 s12">
           <h2>¿Hay alguna razón?</h2>      
-          <p>Descripción<p>
+          <p>Descubre el origen de algunas de las fórmulas más populares que nos hacen aprendernos cuando empezamos a estudiar termodinámica<p>
         </div>
       </div>
     </header>
@@ -63,7 +67,92 @@
             <div class="collapsible-header"><h5><i class="material-icons">description</i><b>Artículo 1</b></h5></div>
             <div class="collapsible-body">
               <span align="justify">
-                <p>Transcribir artículo 1.</p>
+                <font face="cambria" size="4">
+                  <p>En varios textos de Termodinámica del nivel de  licenciatura se habla de la ecuación del gas ideal como una definición, pura y simplemente, o como un caso límite del factor de compresibilidad, el cual se presenta sin apelar al comportamiento del gas ideal.</p>
+                  <p>Es probable que los autores de estas obras crean que el estudiantado sabe desde el bachillerato la conexión que hay entre las leyes de los gases y la ecuación del gas ideal.</p>
+                  <p>En la literatura técnica, sobre todo en la europea, suele denominarse a esta última la ecuación de Clapeyron y de Mendeléiev. Las leyes de los gases son tres, correspondientes a tres de los procesos casi estáticos más importantes en el estudio de la termodinámica clásica.</p>
+                  <p>Si se usa la simbología más aceptada para una masa constante de un gas se tendría el glosario que sigue:
+                  <br>$\mathrm{P}$ = presión absoluta
+                  <br>$\mathrm{v}$ = volumen específico
+                  <br>$\mathrm{T}$ = temperatura absoluta</p>
+                  <p>La ecuación de Clapeyron y de Mendeléiev es</p>
+                  <p>$$\mathrm{\frac{Pv}{T}=R}$$</p>
+                  <p>A las leyes de los gases puede agrupárselas</p>
+                  <table class="centered">
+                    <thead>
+                      <tr>
+                        <th>Proceso</th>
+                        <th>Ley de</th>
+                        <th>Expresión matemática</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>isotérmico</td>
+                        <td>Boyle y de Mariotte</td>
+                        <td>$$\mathrm{Pv = constante_{BM}}$$</td>
+                      </tr>
+                      <tr>
+                        <td>isobárico</td>
+                        <td>Charles</td>
+                        <td>$$\mathrm{\frac{v}{T}={\rm constante}_{Ch}}$$</td>
+                      </tr>
+                      <tr>
+                        <td>isométrico</td>
+                        <td>Gay-Lussac</td>
+                        <td>$$\mathrm{\frac{P}{T}={\rm constante}_{GL}}$$</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>¿Conoce usted cómo se combinan las tres leyes de los gases para obtener la ecuación del gas ideal?</p>
+                  <p>Si no tiene la certeza, considere el análisis que sigue.</p>
+                  <p>Sea una masa constante de un gas que pueda existir en tres estados termodinámicos diferentes</p>
+                  <table class="centered">
+                    <thead>
+                      <tr>
+                        <th>Estado</th>
+                        <th>Temperatura absoluta ($\mathrm{K}$)</th>
+                        <th>Presión absoluta</th>
+                        <th>Volumen específico $$\mathrm{\left(\frac{m^3}{cantidad\ de\ sustancia}\right)}$$</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>a</td>
+                        <td>$\mathrm{T_a}$</td>
+                        <td>$\mathrm{P_a}$</td>
+                        <td>$\mathrm{v_a}$</td>
+                      </tr>
+                      <tr>
+                        <td>b</td>
+                        <td>$\mathrm{T_b = T_a}$</td>
+                        <td>$\mathrm{P_b}$</td>
+                        <td>$\mathrm{v_b}$</td>
+                      </tr>
+                      <tr>
+                        <td>c</td>
+                        <td>$\mathrm{T_c}$</td>
+                        <td>$\mathrm{P_c}$</td>
+                        <td>$\mathrm{v_c = v_a}$</td>
+                      </tr>
+                    </tbody>
+                  </table>  
+                  <p>Conecte a los estados a y b mediante la ley de Boyle y de Mariotte</p>
+                  <p>$$\mathrm{P_av_a=P_bv_b}$$</p>
+                  <p>$$\mathrm{P_a=P_b\frac{v_b}{v_a}=P_b\frac{v_b}{v_c}}$$</p>
+                  <p>Conecte a los estados a y c mediante la ley de Gay-Lussac</p>
+                  <p>$$\mathrm{\frac{P_c}{T_c}=\frac{P_a}{T_a}}$$</p>
+                  <p>$$\mathrm{\frac{P_cT_a}{T_c}=P_a=\frac{P_bv_b}{v_c}}$$</p>
+                  <p>De donde</p>
+                  <p>$$\mathrm{\frac{P_cT_a}{T_c}=\frac{P_bv_b}{v_c}}$$<p>
+                  <p>pero como $\mathrm{T_a}$ es igual a $\mathrm{T_b}$</p>
+                  <p>$$\mathrm{\frac{P_cv_c}{T_c}=\frac{P_bv_b}{T_b}}$$</p>
+                  <p>Cada término es de la misma forma. La diferencia única está en el subíndice que identifica a cada estado.</p>
+                  <p>Para que estas igualdades resulten correctas es necesario y suficiente que cada término sea igual a una constante.</p>
+                  <p>Sea esta constante $\mathrm{R}$</p>
+                  <p>$$\mathrm{\frac{P_cv_c}{T_c}=\frac{P_bv_b}{T_b}=R}$$</p>
+                  que no es ninguna otra que la ecuación de Clapeyron y de Mendeléiev.
+                </font>
               </span>
             </div>
           </li>
@@ -72,7 +161,32 @@
             <div class="collapsible-header"><h5><i class="material-icons">description</i><b>Artículo 2</b></h5></div>
             <div class="collapsible-body">
               <span align="justify">
-                <p>Transcribir artículo 2.</p>
+                <font face="cambria" size="4">
+                  <p>En otro artículo de la sección “¿HAY ALGUNA RAZÓN?” se discute la forma en la que hay que combinar a las tres leyes de los gases ideales para encontrar a la ecuación de Clapeyron y de Mendeléiev.</p>
+                  <p>En ese artículo se daba como un hecho que la temperatura debería ser necesariamente la temperatura absoluta, la que se encontró gracias a los experimentos de Gay-Lussac, mucho tiempo antes del descubrimiento de la ley segunda de la termodinámica.</p>
+                  <p>En ese mismo artículo se daba por sentado que la presión debería ser necesariamente la presión absoluta, pero no se daba ningún argumento para sustentar esa creencia, así que en este artículo se presentarán algunas ideas para arrojar algo de luz en este asunto.</p>
+                  <p>Los experimentos de E. Torricelli, que le permitieron la determinación de la presión ambiental y el descubrimiento de un cero natural para la medición de la presión, anteceden a la primera y más antigua de las leyes de los gases, la ley de R. Boyle y de E. Mariotte.</p>
+                  <p>Es de suponer que ambos científicos apreciaron la bondad del uso de la presión absoluta en vez de la muy variante presión relativa (la que usa como referencia a la presión del entorno del lugar).  Sin embargo, esta presunción no debería dejar satisfecha la curiosidad de quien se enfrasque en el estudio de la termodinámica clásica. ¿No habrá algún argumento de peso, lo suficientemente convincente como para disipar las dudas?</p>
+                  <p>Recordemos a la ley de Boyle y de Mariotte, en donde $\mathrm{v}$ = volumen específico del gas y $\mathrm{P}$ = la presión (que tal vez no se sepa que debería ser la absoluta):
+                  <p>$$\mathrm{P_av_a = P_bv_b}$$</p>
+                  <p>Como se conoce de los cursos de matemáticas, una expresión como la previa, en la que los términos de la igualdad son de la misma naturaleza, y que difieren entre sí solamente por los subíndices, deberían ser, todos y cada uno de ellos, iguales a una constante</p>
+                  <p class="center">$\mathrm{P_av_a = P_bv_b = constante}$   &emsp;    (ξ)</p>
+                  <p>Ahora bien, recuerde que si no se supiese que en la expresión matemática debería usarse la presión absoluta, podría usarse la presión relativa.</p>
+                  <p>En primer lugar, debe recordarse que para una masa de un gas ideal el volumen específico es siempre mayor que cero. ¿Qué hay de la presión?</p>
+                  <p>La cualidad de la presión absoluta es que no puede valer cero (excepto en la situación física inalcanzable del vacío perfecto).</p>
+                  <p>La cualidad de la presión relativa es que vale cero (automáticamente) cuando el sistema está a la misma presión que su entorno.</p>
+                  <p>En este caso, podría ser, si se usase la presión relativa en la ley de Boyle y de Mariotte, que uno de los términos resultase igual que cero. </p>
+                  <p>Pero si la ecuación (ξ) fuese cierta, entonces todos los términos deberían ser cero, lo que haría que la ley de Boyle y de Mariotte resultara de una validez más bien restringida.</p>
+                  <p>Para evitar ese inconveniente, debería usarse exclusivamente a la presión absoluta. Argumento primero a favor del uso de la presión absoluta.<p>
+                  <p>Otro argumento que podría usarse para reforzar la idea de la obligatoriedad del uso de la presión absoluta en las expresiones de las leyes de los gases es la de la elegancia matemática.</p>
+                  <p>¿Desea el uso de la presión relativa en los modelos matemáticos? Piense en que la presión del entorno sea Pent y que la presión relativa del estado “d” sea Preld.</p>
+                  <p>Por ahora, use la idea de la presión absoluta</p>
+                  <p>$$\mathrm{P_dv_d = (P_{ent} + P_{reld})v_d}$$</p>
+                  <p>Si se desea la expresión de la ley de Boyle y de Mariotte con este estilo se tendría</p>
+                  <p>$$\mathrm{(P_{ent} + P_{reld})v_d = (P_{ent} + P_{relc})v_c = constant}$$
+                  <p>No se puede el no apreciar que este modelo matemático es mucho más engorroso, y por lo tanto, menos elegante y sencillo que el respectivo con el uso de la presión absoluta. Argumento segundo a favor del uso de la presión absoluta.</p>
+                  <p>Trate de recordar los argumentos previos para que, de ahora en adelante, tenga la certeza de que las leyes de los gases tienen las expresiones sencillas y elegantes gracias al empleo de la presión absoluta. </p>                 
+                </font>
               </span>
             </div>
           </li>
@@ -109,6 +223,15 @@
     <!--Inicialización de componentes de Materialize-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+      </script>
     <script type="text/javascript">
       $(document).ready(function(){
         $('.sidenav').sidenav();
