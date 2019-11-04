@@ -13,34 +13,29 @@
   <body class="grey lighten-5">
     <header>
       <!-- Navbar -->
-      <nav>
-        <div class="nav-wrapper grey">
-          <img src="images/cdd64.png" alt="CdD"/>
-          <a href="index.html" class="brand-logo">Termodinámica</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">            
-            <li><a href="definiciones.html"><i class="material-icons left">reorder</i>Definiciones</a></li>
-            <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
-            <li><a href="com_bib.html"><i class="material-icons left">find_in_page</i>Comentarios Bibliográficos</a></li>
-            <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas</a></li>
-            <li><a href="fotocopias.html"><i class="material-icons left">import_contacts</i>Fotocopias</a></li>
-            <li><a href="razones.html"><i class="material-icons left">question_answer</i>Razones</a></li>
-            <li class="active"><a href="#"><i class="material-icons left">assignment_turned_in</i>Autoevaluaciones</a></li>
-            <li><a href="#"><i class="material-icons left">help_outline</i>Acerca de</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper grey">          
+            <a href="index.html" class="brand-logo center"><img src="images/cdd64.png" width="12%" height="12%" alt="CdD"/> Termodinámica</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large">
+              <i class="material-icons">menu</i>
+            </a>
+          </div>
+        </nav>
+      </div>
       <!--Navbar colapsado (móviles) -->
       <ul class="sidenav" id="mobile-demo">
         <h4 class="center">Menú</h4>
+          <li><a href="index.html"><i class="material-icons left">view_module</i>Inicio</a></li>
           <li><a href="definiciones.html"><i class="material-icons left">reorder</i>Definiciones</a></li>
           <li><a href="videos.html"><i class="material-icons left">play_circle_outline</i>Videos</a></li>
           <li><a href="com_bib.html"><i class="material-icons left">find_in_page</i>Comentarios Bibliográficos</a></li>
-          <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas</a></li>
-          <li><a href="fotocopias.html"><i class="material-icons left">import_contacts</i>Fotocopias</a></li>
-          <li><a href="razones.html"><i class="material-icons left">question_answer</i>Razones</a></li>
-          <li class="active"><a href="#"><i class="material-icons left">assignment_turned_in</i>Autoevaluaciones</a></li>
-          <li><a href="#"><i class="material-icons left">help_outline</i>Acerca de</a></li>
+          <li><a href="lecturas.html"><i class="material-icons left">description</i>Lecturas Recomendadas</a></li>
+          <li><a href="material.html"><i class="material-icons left">emoji_objects</i>Material de Apoyo</a></li>
+          <li><a href="razones.html"><i class="material-icons left">question_answer</i>¿Hay Alguna Razón?</a></li>
+          <li class="active"><a href="examen.html"><i class="material-icons left">assignment_turned_in</i>Autoevaluaciones</a></li>
+          <li><a href="orientacion.html"><i class="material-icons left">near_me</i>Orientación Para el Estudio</a></li>
+          <li><a href="about.html"><i class="material-icons left">help_outline</i>Acerca De</a></li>
       </ul>
     </header>
       
@@ -48,7 +43,9 @@
       <div class="row">
         <div class="col l3 offset-l1 m5 s12 center">
           <img src="images/test.png" alt="Imagen" height="256" width="256">
-          
+          <font size="1">
+          <div>Icons by <a href="https://www.flaticon.com/authors/prosymbols" title="Prosymbols">Prosymbols</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+          </font>
         </div>
         <div class="col l7 m7 s12">
           <h2>Autoevaluaciones</h2>      
@@ -61,14 +58,14 @@
         <ul class="collapsible popout col l10 offset-l1 s12 m10 offset-m1">
           <!--Tema 1-->
           <li>
-            <div class="collapsible-header"><h5><b>Autoevaluación sobre Tema 1</b></h5></div>
+            <div class="collapsible-header"><h5><b><i class="material-icons left">assignment_turned_in</i>Autoevaluación sobre los conceptos de sistema, propiedad y materia</b></h5></div>
               <div class="collapsible-body">         
                 <iframe src="https://drive.google.com/embeddedfolderview?id=1yyw7dxwA1amAT4dduV3yaLz20QH8-_jM" width="100%" height="200" frameborder="0"></iframe>
               </div> 
           </li>
           <!--Tema 2-->
           <li>
-            <div class="collapsible-header"><h5><b>Autoevaluación sobre Tema 2</b></h5></div>
+            <div class="collapsible-header"><h5><b><i class="material-icons left">assignment_turned_in</i>Cuestionarios de opinión sobre el sitio web y el proyecto</b></h5></div>
               <div class="collapsible-body">         
                 <iframe src="https://drive.google.com/embeddedfolderview?id=1B0T_H-QwswuKq00rEjQvk9cR7_k6Wqqe" width="100%" height="200" frameborder="0"></iframe>
               </div> 
@@ -84,16 +81,16 @@
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Desarrollado por el PROTECO    <img src="images/proteco64.png" alt="PROTECOLogo" height="32" width="32"></h5>
-
-            <p class="grey-text text-lighten-4">Este sitio fue creado como apoyo para el estudio de la termodinámica por el Centro de Docencia de la Facultad de Ingeniería de la Universidad Nacional Autónoma de México.</p>
+            <h5 class="white-text">Este sitio web es el resultado del proyecto PAPIME PE106518.</h5>
+            <p class="grey-text text-lighten-4">Este sitio fue desarrollado por Daniel Vargas y Pablo Lobato bajo supervisión de representantes del Centro de Docencia Ing. Gilberto Borja Navarrete de la Facultad de Ingeniería de la Universidad Nacional Autónoma de México.</p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5 class="white-text">Contacto</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="http://proteco.mx/cursos">Visita la página del PROTECO</a></li>
-              <li><a class="grey-text text-lighten-3" href="http://www.centrodedocencia.unam.mx/index.php">Visita la página del CDD</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/proteco/">Sigue al PROTECO en Facebook</a></li>
+              <li>               
+                <a class="grey-text text-lighten-3" href="http://www.centrodedocencia.unam.mx/index.php">
+                <i class="tiny material-icons">link</i> Visita la página del CDD</a>
+              </li>
             </ul>
           </div>
         </div>
