@@ -59,6 +59,88 @@
      <!--Comentarios bibliográficos colapsables -->
       <div class="row">
         <ul class="collapsible popout col l10 offset-l1 m12 s12">
+           <!--Densidad-->
+           <li>
+            <div class="collapsible-header"><h5><i class="material-icons">description</i><b>El origen de la fórmula y la notación de la densidad</b></h5></div>
+            <div class="collapsible-body">
+              <span align="justify">
+                <font face="georgia" size="4">
+                  <p>Tanto en las ciencias como en la vida diaria, el concepto de densidad se aplica a entes muy diversos (masa, carga, corriente, población, etc.). Por ello a veces es necesario precisar que la definición presentada se refiere a la <i>densidad volumétrica de masa</i>.</p>
+                  <p>En el caso de materiales no homogéneos, aquéllos cuya masa no se halla distribuida uniformemente como, por ejemplo, la atmósfera terrestre, la relación $ρ = m/V$ define la <i>densidad media</i> del material. Para este tipo de materiales, a veces es necesario definir además una <i>densidad
+                    puntual</i>, cuyo valor puede variar de un punto a otro. Para esto, es necesario considerar una serie de volúmenes $ΔV$ que contengan al punto $P$ en el que se desea determinar la densidad puntual, cada vez más pequeños, como sugiere la figura siguiente.</p>
+                  <div align="center">
+                    <img src="images/densidad.png" alt="Densidad" height="300" width="300">
+                  </div>
+                  <p>El límite $ρ(P)$ al que tiende la sucesión de valores del cociente $Δm/ΔV$, para las masas $Δm$ contenidas en los volúmenes de la serie, es la densidad puntual del material en ese punto. Esto es,</p>
+                  <p>$$ρ(P) = \lim_{ΔV \to 0}{\frac{Δm}{ΔV}}.$$</p>
+                  <p>Si se usa la simbología más aceptada para una masa constante de un gas se tendría el glosario que sigue:
+                  <h5>Acerca de la notación</h5>
+                  <p>No se sabe cuándo y por qué se adoptó la letra $ρ$ para denotar a la densidad volumétrica. 
+                    Erik Anson, estudiante de doctorado en física, publicó en internet, en 2015, su propia conjetura al respecto. 
+                    Fijándose en las letras griegas que se utilizan para denotar a los diversos tipos de densidad, observa lo siguiente:</p>
+                  <table class="centered">
+                    <thead>
+                      <tr>
+                        <th>Letra griega</th>
+                        <th>Equivalente a la letra</th>
+                        <th>Denota la densidad</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>$λ$</td>
+                        <td>l</td>
+                        <td>a lo largo de una <i>línea</i>.</td>
+                      </tr>
+                      <tr>
+                        <td>$σ$</td>
+                        <td>s</td>
+                        <td>a lo largo de una <i>superficie</i>.</td>
+                      </tr>
+                      <tr>
+                        <td>$ρ$</td>
+                        <td>r</td>
+                        <td>a lo largo de una <i>región</i> (volumen).</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>(https://www.quora.com/Why-is-the-Greek-letter-%CF%81-rho-used-to-symbolize-density)
+                  </p>
+                </font>
+              </span>
+            </div>
+          </li>
+          <!--Dimensión-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">description</i><b>El origen de la fórmula y la notación de la dimensión</b></h5></div>
+            <div class="collapsible-body">
+              <span align="justify">
+                <font face="georgia" size="4">
+                  <p>Para describir los objetos y eventos del mundo físico, la ciencia utiliza dos tipos de magnitudes: <i>fundamentales</i>, que se pueden medir físicamente en términos de una unidad, como la longitud, la masa, y el tiempo, entre
+                    otras, y <i>derivadas</i>, que se calculan a partir de otras magnitudes físicas por medio de relaciones matemáticas, como la velocidad ($V=d/t$), la energía cinética ($K=mv^2/2$), etc.</p>
+                  <p>Cada tipo de magnitud fundamental tiene por definición su propia dimensión. Supongamos que la magnitud A es una longitud, por ejemplo, la estatura de una persona o la distancia entre dos postes. Esto es, $A=l$,
+                    donde $l$ es la variable que representa los valores posibles de A. En este caso decimos que A “tiene la dimensión de longitud” y representamos este enunciado con la fórmula: </p>
+                  <p>$$[A]=L,$$</p>
+                  <p>que evidentemente resulta de la ecuación $A=l$, al escribir la magnitud $A$ entre corchetes y sustituir a la variable $l$ por el símbolo “L” de la longitud. </p>
+                  <p>Lo que esta fórmula indica es que, si el tamaño de la unidad de longitud se incrementara por un factor $n$, el valor numérico de la magnitud se modificaría por un factor $n^{-1}$, y su nuevo valor sería</p>
+                  <p>$$A'=n^{-1}A$$</p>
+                  <p>Por ejemplo, si el metro patrón duplicara su longitud ($n = 2$), el valor numérico de la longitud de cada objeto se reduciría a la mitad de su valor original ($n^{-1} = ½$).</p>
+                  <p>La dimensión de una magnitud derivada comunica el mismo tipo de información de una manera generalizada. Por ejemplo, en el caso de la velocidad, que se define por la relación $V = d/t = (d)(t^{-1})$, en la que $d$ es
+                    distancia y $t$ tiempo, si la unidad de longitud cambia por un factor $n_L$ y la de tiempo por un factor nt, el valor numérico de la velocidad cambiará a</p>
+                  <p>$$V'=n^{-1}V,$$</p>
+                  <p>donde $n = (n_L)(n_t)^{-1}$. Entonces, por analogía con el significado dado al término “dimensión” para las magnitudes fundamentales, se dice que la dimensión de la magnitud derivada “velocidad” es</p>
+                  <p>$$[V]=(L)(t)^{-1}$$</p>
+                  <p>fórmula que obviamente resulta de la relación $V=(d)(t)^{-1}$, y se expresa en términos de las magnitudes fundamentales longitud y tiempo.</p>
+                  <p>Un ejemplo más. Para la energía cinética de una partícula de masa $m$ con velocidad $v$, puesto que $K = mv^2/2$ o, desarrollando, $K = m(d/t)^2/2 = (m)(d)^2(t)^{-2}/2$, vemos que la dimensión de $K$ tiene la fórmula</p>
+                  <p>$$[K]=(M)(L)^2(t)^{-2}.$$</p>
+                  <p>Y así, para cualquier otra magnitud derivada.</p>
+                  <h5>Otras acepciones</h5>
+                  <p>La definición presentada aquí es la que se usa en física para los fines de un procedimiento llamado <i>análisis dimensional</i>. Sin embargo, en el lenguaje ordinario, y en la misma física, la palabra “dimensión” se utiliza
+                    también con otras acepciones. Por ejemplo, la medida de un objeto en una determinada dirección: su largo, su ancho, etc.</p>
+                </font>
+              </span>
+            </div>
+          </li>
           <!--Artículo 1-->
           <li>
             <div class="collapsible-header"><h5><i class="material-icons">description</i><b>Artículo 1</b></h5></div>
