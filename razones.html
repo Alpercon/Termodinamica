@@ -74,7 +74,7 @@
                   <p>El límite $ρ(P)$ al que tiende la sucesión de valores del cociente $Δm/ΔV$, para las masas $Δm$ contenidas en los volúmenes de la serie, es la densidad puntual del material en ese punto. Esto es,</p>
                   <p>$$ρ(P) = \lim_{ΔV \to 0}{\frac{Δm}{ΔV}}.$$</p>
                   <p>Si se usa la simbología más aceptada para una masa constante de un gas se tendría el glosario que sigue:
-                  <h5>Acerca de la notación</h5>
+                  <h5><b>Acerca de la notación</b></h5>
                   <p>No se sabe cuándo y por qué se adoptó la letra $ρ$ para denotar a la densidad volumétrica. 
                     Erik Anson, estudiante de doctorado en física, publicó en internet, en 2015, su propia conjetura al respecto. 
                     Fijándose en las letras griegas que se utilizan para denotar a los diversos tipos de densidad, observa lo siguiente:</p>
@@ -104,8 +104,7 @@
                       </tr>
                     </tbody>
                   </table>
-                  <p>(https://www.quora.com/Why-is-the-Greek-letter-%CF%81-rho-used-to-symbolize-density)
-                  </p>
+                  <p>(<a href="https://www.quora.com/Why-is-the-Greek-letter-%CF%81-rho-used-to-symbolize-density">https://www.quora.com/Why-is-the-Greek-letter-%CF%81-rho-used-to-symbolize-density</a>)</p>
                 </font>
               </span>
             </div>
@@ -134,9 +133,122 @@
                   <p>Un ejemplo más. Para la energía cinética de una partícula de masa $m$ con velocidad $v$, puesto que $K = mv^2/2$ o, desarrollando, $K = m(d/t)^2/2 = (m)(d)^2(t)^{-2}/2$, vemos que la dimensión de $K$ tiene la fórmula</p>
                   <p>$$[K]=(M)(L)^2(t)^{-2}.$$</p>
                   <p>Y así, para cualquier otra magnitud derivada.</p>
-                  <h5>Otras acepciones</h5>
+                  <h5><b>Otras acepciones</b></h5>
                   <p>La definición presentada aquí es la que se usa en física para los fines de un procedimiento llamado <i>análisis dimensional</i>. Sin embargo, en el lenguaje ordinario, y en la misma física, la palabra “dimensión” se utiliza
                     también con otras acepciones. Por ejemplo, la medida de un objeto en una determinada dirección: su largo, su ancho, etc.</p>
+                </font>
+              </span>
+            </div>
+          </li>
+          <!--Energía Cinética-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">description</i><b>El origen de la fórmula y la notación de la energía cinética</b></h5></div>
+            <div class="collapsible-body">
+              <span align="justify">
+                <font face="georgia" size="4">
+                  <p>La energía cinética es una de las formas de energía posibles de un sistema físico. En el caso de un sistema formado por una sola partícula, la acción de una fuerza $F$ constante en la dirección en que ésta se mueve incrementará o reducirá su rapidez,
+                    y con ella su energía de movimiento, dependiendo de que la fuerza se ejerza en el sentido de la velocidad o en sentido contrario. La relación precisa entre la fuerza aplicada y el cambio en la energía cinética de la partícula se deduce de la segunda ley de Newton:</p>
+                  <p>$$F=m\frac{dv}{dt}.$$ </p>
+                  <p>Para ello es necesario expresar la derivada de la rapidez con respecto al tiempo, en términos de su derivada con respecto a la coordenada $s$ de posición. Esto se logra por medio de la Regla de la Cadena del cálculo diferencial:</p>
+                  <p>$$\frac{dv}{dt}=\frac{dv}{ds}\frac{ds}{dt}=v\frac{dv}{ds},$$</p>
+                  <p>donde se ha usado el hecho de que $v = ds/dt$. De este modo la segunda ley de Newton se expresa como:</p>
+                  <p>$$F=mv\frac{dv}{ds},$$</p>
+                  <p>o bien, en la forma diferencial equivalente:</p>
+                  <p>$$mv\,dv = F\,ds$$</p>
+                  <p>Integrando ambos miembros de la ecuación, para el espacio que recorre la partícula desde una posición inicial $s_i$, hasta una posición final $s_f$,</p>
+                  <p>$$m\int_{v_i}^{v_f}v\,dv = \int_{s_i}^{s_f}F\,ds,$$</p>
+                  <p>obtenemos:</p>
+                  <p>$$\frac{1}{2}mv_f^2-\frac{1}{2}mv_i^2=F(s_f-s_i),$$</p>
+                  <p>donde $v_i$ y $v_f$ son valores de la rapidez en posiciones inicial $s_i$ y final $s_f$, respectivamente.</p>
+                  <p>El primer miembro de esta expresión representa el cambio en la energía cinética de la partícula $ΔK = K_f - K_i$ y, el segundo, el trabajo $W = F Δs$, realizado sobre ella por la fuerza F. Por lo tanto, la segunda ley de Newton demuestra que</p>
+                  <p>$$ΔK=W$$</p>
+                  <p>es decir, que <i>el trabajo realizado por una fuerza sobre una sola partícula es igual al cambio en la energía cinética de ésta.</i></p>
+                  <h5><b>La energía cinética en el plano</b></h5>
+                  <div align="center">
+                    <img src="images/mov_plano.png" alt="Movimiento en el plano" height="200" width="350">
+                  </div>
+                  <p>De la segunda ley de Newton:</p>
+                  <p>$$(F_x, F_y)=m\left(\frac{dv_x}{dt},\frac{dv_y}{dt}\right)$$</p>
+                  <p>Ecuaciones escalares equivalentes a la ecuación vectorial:</p>
+                  <p>$$F_x=m\frac{dv_x}{dt} \quad\quad F_y=m\frac{dv_y}{dt}$$</p>
+                  <p>Por medio de la Regla de la Cadena del cálculo diferencial:</p>
+                  <p>$$\frac{dv_x}{dt}=\frac{dv_x}{ds_x}\frac{ds_x}{dt}=v_x\frac{dv_x}{ds_x} \quad\quad \frac{dv_y}{dt}=\frac{dv_y}{ds_y}\frac{ds_y}{dt}=v_y\frac{dv_y}{ds_y}$$</p>
+                  <p>Si se tratan las ecuaciones anteriores, por un lado, para las componente $F_x$, $v_x$ y $s_x$ y, por otro, para las componentes $F_y$, $v_y$ y $s_y$, con el procedimiento utilizado en el caso de movimiento unidimensional, se obtiene:</p>
+                  <p>$$\frac{1}{2}mv_{x_f}^2-\frac{1}{2}mv_{x_i}^2=\int_{s_{x_i}}^{s_{x_f}}F_x\,ds_x \quad\quad \frac{1}{2}mv_{y_f}^2-\frac{1}{2}mv_{y_i}^2=\int_{s_{y_i}}^{s_{y_f}}F_y\,ds_y$$</p>
+                  <p>donde $v_{x_i}$, $v_{x_f}$, $v_{y_i}$ y $v_{y_f}$, son las componentes de la velocidad en las posiciones inicial $(s_{x_i} , s_{y_i})$ y final $(s_{x_f} , s_{y_f})$ de la partícula.</p>
+                  <p>La suma de las dos últimas ecuaciones da como resultado:</p>
+                  <p>$$\frac{1}{2}mv_{x_f}^2 + \frac{1}{2}mv_{y_f}^2 - \frac{1}{2}mv_{x_i}^2 - \frac{1}{2}mv_{y_i}^2=\int_{s_{x_i}}^{s_{x_f}}F_x\,ds_x + \int_{s_{y_i}}^{s_{y_f}}F_y\,ds_y$$</p>
+                  <p>esto es,</p>
+                  <p>$$\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = \int_{s_i}^{s_f}(F_x\,ds_x + F_y\,ds_y)$$</p>
+                  <p>puesto que $v_{x_i}^2+v_{y_i}^2=v_i^2\;$ y $\;v_{x_f}^2+v_{y_f}^2=v_f^2$.</p>
+                  <p>Y, dado que, en la notación vectorial, </p>
+                  <p>$$\int_{s_i}^{s_f}(F_x\,ds_x + F_y\,ds_y) = \int_{s_i}^{s_f}(F_x,F_y)⋅(ds_x,ds_y)$$</p>
+                  <p>la última expresión del desarrollo anterior se puede reescribir en la forma siguiente:</p>
+                  <p>$$\frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = \int_{s_i}^{s_f}(F_x,F_y)⋅(ds_x,ds_y)$$</p>
+                  <p>El primer miembro de esta expresión representa el cambio en la energía cinética de la partícula $ΔK = K_f - K_i$ y, el segundo, el trabajo $W=\int_{s_i}^{s_f}F⋅ds$, realizado sobre ella por la fuerza $F=(Fx,Fy)$.</p>
+                  <p>Por lo tanto, de la segunda ley de Newton se deduce que, tal como sucede en el caso de movimiento unidimensional:</p>
+                  <p>$$ΔK=W,$$</p>
+                  <p>es decir, que <i>el trabajo realizado por una fuerza sobre una partícula es igual al cambio en la energía cinética de ésta.</i></p>
+                  <h5><b>Acerca de la notación</b></h5>
+                  <p>Muchos autores denotan a la energía cinética por la letra K, inicial de la palabra inglesa “kinetic” que significa “cinético” o “cinética”, y proviene de la palabra griega "κινητικόζ", que significa “que mueve”.</p>
+                  <p>Por su parte, el uso de la letra W para denotar el trabajo proviene de la palabra inglesa “work”, que significa “trabajo”.</p>
+                </font>
+              </span>
+            </div>
+          </li>
+          <!--Energía Potencial-->
+          <li>
+            <div class="collapsible-header"><h5><i class="material-icons">description</i><b>El origen de la fórmula y la notación de la energía potencial</b></h5></div>
+            <div class="collapsible-body">
+              <span align="justify">
+                <font face="georgia" size="4">
+                  <p>Se dice que la energía potencial es una energía de <i>interacción</i>, porque se debe a fuerzas que ejercen entre sí los diferentes objetos que constituyen el sistema. La interacción almacena energía que tiene el <i>potencial</i> de convertirse en energía cinética o de otro tipo.</p>
+                  <p>Cuando uno de los objetos cambia de posición, la energía potencial $U$ del sistema experimenta un cambio $ΔU$, igual al (negativo del) trabajo realizado por las fuerzas de interacción que actúan sobre el objeto, mientras éste se desplaza desde su posición inicial $i$ hasta una posición final $f$. Esto es,</p>
+                  <p>$$ΔU=-W(i \to f).$$</p>
+                  <p>El signo menos, en esta expresión, indica que cuando el desplazamiento ocurre en el sentido de la fuerza, la energía potencial disminuye.</p>
+                  <p>La energía potencial es una propiedad del sistema. Depende de las posiciones relativas de los objetos que lo forman, pero no de la manera particular como éstos hayan llegado a ocupar tales posiciones. 
+                    Por ello, el cambio $ΔU$ que experimenta la energía potencial cuando alguno de los objetos cambia de posición, y el trabajo $W (i \to f)$ correspondiente, son <i>independientes de la trayectoria que sigue el objeto</i>. 
+                    Sus valores dependen únicamente de las posiciones inicial y final. Por lo tanto, si el objeto regresa a su posición inicial, la energía potencial del sistema recupera el valor que tenía antes del cambio, de manera que $ΔU = 0$ para el ciclo completo $i \to f \to$. 
+                    Por esta razón se dice que las fuerzas asociadas con la energía potencial son fuerzas <i>conservativas</i>.</p>
+                  <p>Algunos ejemplos comunes de energía potencial son los siguientes.</p>
+                  <div class="col l11 offset-l1 m11 offset-m1 s11 offset-s1">
+                    <ul>
+                      <li style="list-style-type: initial">
+                        <p><i>Gravitacional</i>, en un sistema de dos cuerpos de masas $m_1$ y $m_2$, separados una distancia $r$:</p>
+                        <p>$$U=-G\frac{m_1m_2}{r},$$</p>
+                        <p>donde $G$ es la constante de la gravitación universal.</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: initial">
+                        <p><i>Gravitacional, cerca de la superficie de la tierra</i> (bajo la aproximación de superficie plana):</p>
+                        <p>$$U=mgy,$$</p>
+                        <p>donde $m$ es la masa de un objeto situado a una altura $y$, y $g$ es la aceleración local de la gravedad.</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: initial">
+                        <p><i>Elástica</i>, en un sistema masa-resorte-soporte:</p>
+                        <p>$$U=\frac{1}{2}kx^2,$$</p>
+                        <p>donde $k$ es la constante del resorte y $x$ su deformación.</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: initial">
+                        <p><i>Eléctrica</i>, en un sistema de dos cargas puntuales $q_1$ y $q_2$, separadas a una distancia $r$:</p>
+                        <p>$$U=K\frac{q_1q_2}{r},$$</p>
+                        <p>donde $K$ es la constante de la ley de Coulomb.</p>
+                      </li>
+                      <br>
+                      <li style="list-style-type: initial">
+                        <p><i>Eléctrica</i>, en un capacitor de placas paralelas con carga $Q$:</p>
+                        <p>$$U=\frac{Q^2d}{2ϵ_0A},$$</p>
+                        <p>donde $d$ es la distancia entre las placas, $A$ el área de cada una de éstas y $ϵ_0$ la permitividad eléctrica del vacío.</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <h5><b>Acerca de la notación</b></h5>
+                  <p>Se desconoce la razón por la que William Rankine eligió utilizar la letra U para denotar a la energía potencial, en un artículo de 1853. 
+                    Se conjetura que podría deberse al hecho de que la U es intercambiable lingüísticamente con la letra V, que tradicionalmente ha denotado el “voltaje” o potencial eléctrico, el cual guarda estrecha relación con la energía potencial eléctrica 
+                    (<a href="https://www.quora.com/Why-is-U-thesymbol-for-potential-energy">https://www.quora.com/Why-is-U-thesymbol-for-potential-energy</a>).</p>
+                  <p>El uso de la W para denotar el trabajo proviene de la palabra inglesa “work”, que significa “trabajo”.</p>
                 </font>
               </span>
             </div>
